@@ -40,7 +40,7 @@ const data = {exercises: [
     "Warmup": "no"
   },
   {
-    "Exercise": "Bicep Cable Rope Curl",
+    "Exercise": "Bicep Cable Curl",
     "Equipment": "Cable",
     "ExerciseType": "Weight",
     "MajorMuscle": "Arms",
@@ -180,7 +180,7 @@ const data = {exercises: [
     "Warmup": "no"
   },
   {
-    "Exercise": "Tricep Rope Pulldown",
+    "Exercise": "Tricep Pulldown",
     "Equipment": "Cable",
     "ExerciseType": "Weight",
     "MajorMuscle": "Arms",
@@ -321,7 +321,7 @@ const data = {exercises: [
   },
   {
     "Exercise": "Jump Rope",
-    "Equipment": "Body Weight",
+    "Equipment": "Rope",
     "ExerciseType": "Cardio",
     "MajorMuscle": "Full Body",
     "MinorMuscle": "Calves",
@@ -647,7 +647,7 @@ const data = {exercises: [
     "MinorMuscle": "Outer Thigh",
     "Example": "cca03f06-da6a-4d09-9718-b6e595fb2b96.gif (https://dl.airtable.com/.attachments/ef4c13e5ec9bde3fc7ae7c888490a094/494cc67d/cca03f06-da6a-4d09-9718-b6e595fb2b96.gif)",
     "Compound": "yes",
-    "Warmup": "fullbody"
+    "Warmup": "no"
   },
   {
     "Exercise": "Lateral Band Walk",
@@ -684,10 +684,10 @@ const data = {exercises: [
     "Equipment": "Body Weight",
     "ExerciseType": "Weight",
     "MajorMuscle": "Legs",
-    "MinorMuscle": "Outer Thigh",
+    "MinorMuscle": "Glutes",
     "Example": "",
     "Compound": "yes",
-    "Warmup": "Legs"
+    "Warmup": "no"
   },
   {
     "Exercise": "Single Leg Squat",
@@ -717,12 +717,62 @@ const data = {exercises: [
     "MinorMuscle": "Quads",
     "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
     "Compound": "yes",
-    "Warmup": "fullbody"
+    "Warmup": "no"
   },
   {
     "Exercise": "Running",
     "Equipment": "Body Weight",
     "ExerciseType": "Cardio",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Quads",
+    "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Side Lunges",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Cardio",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Outer Thigh",
+    "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Supine Leg Curl",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Hamstrings",
+    "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Step Ups",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Cardio",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Quads",
+    "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Calf Raise",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Calves",
+    "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Bulgarian Split Squat",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
     "MajorMuscle": "Legs",
     "MinorMuscle": "Quads",
     "Example": "5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif (https://dl.airtable.com/.attachments/f46cffd0d46173de1fd719357de44e4e/7910ab18/5a1e902f-42e7-4b38-b3c5-af3cb2cbbf0c.gif)",
@@ -860,6 +910,26 @@ const data = {exercises: [
     "Warmup": "push"
   },
   {
+    "Exercise": "Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Chest",
+    "MinorMuscle": "Middle Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Clap Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Chest",
+    "MinorMuscle": "Middle Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
     "Exercise": "Incline Pushup",
     "Equipment": "Body Weight",
     "ExerciseType": "Weight",
@@ -870,7 +940,27 @@ const data = {exercises: [
     "Warmup": "no"
   },
   {
+    "Exercise": "Incline Clap Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Chest",
+    "MinorMuscle": "Lower Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
     "Exercise": "Decline Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Chest",
+    "MinorMuscle": "Upper Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Decline Clap Pushup",
     "Equipment": "Body Weight",
     "ExerciseType": "Weight",
     "MajorMuscle": "Chest",
@@ -1346,7 +1436,7 @@ const data = {exercises: [
     "MajorMuscle": "Back",
     "MinorMuscle": "Lower Back",
     "Example": "13a573f1_Superman.jpg (https://dl.airtable.com/.attachments/50c922093cd7ea09b8e36d13d16cefd4/ba1e3fa6/13a573f1_Superman.jpg)",
-    "Compound": "no",
+    "Compound": "yes",
     "Warmup": "no"
   },
   {
@@ -1725,6 +1815,156 @@ const data = {exercises: [
     "ExerciseType": "Weight",
     "MajorMuscle": "Chest",
     "MinorMuscle": "Middle Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "T Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Middle Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Bridge",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Middle Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Quadruped Limb Raises",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Lower Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Plank Row",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Upper Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Wide Grip Pullup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Upper Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Close Grip Pullup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Middle Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Slow Release Pullup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Upper Back",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Slow Release Chin Up",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Bicep",
+    "Example": "",
+    "Compound": "no",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Side Plank",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Back",
+    "MinorMuscle": "Bicep",
+    "Example": "",
+    "Compound": "no",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Pike Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Shoulders",
+    "MinorMuscle": "Shoulders",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Side Plank",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Shoulders",
+    "MinorMuscle": "Shoulders",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Tricep Dips",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Shoulders",
+    "MinorMuscle": "Shoulders",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Spiderman Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Chest",
+    "MinorMuscle": "Middle Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "One Arm Pushup",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Chest",
+    "MinorMuscle": "Middle Chest",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Lunges",
+    "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Hamstrings",
     "Example": "",
     "Compound": "yes",
     "Warmup": "no"
