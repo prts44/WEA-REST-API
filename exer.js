@@ -627,7 +627,7 @@ const data = {exercises: [
     "MinorMuscle": "Outer Thigh",
     "Example": "a7a48b0ff2d2b6b10e086290b1fede92.gif (https://dl.airtable.com/.attachments/676ecd6592cc5d683f119d82ca515205/aad5c0de/a7a48b0ff2d2b6b10e086290b1fede92.gif)",
     "Compound": "yes",
-    "Warmup": "legs"
+    "Warmup": "no"
   },
   {
     "Exercise": "Squat to Lateral Leg Lift",
@@ -674,7 +674,7 @@ const data = {exercises: [
     "Equipment": "Dumbbells",
     "ExerciseType": "Weight",
     "MajorMuscle": "Legs",
-    "MinorMuscle": "Outer Thigh",
+    "MinorMuscle": "Hamstrings",
     "Example": "",
     "Compound": "yes",
     "Warmup": "no"
@@ -1962,6 +1962,56 @@ const data = {exercises: [
   {
     "Exercise": "Lunges",
     "Equipment": "Body Weight",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Hamstrings",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Dumbbell Good-Morning",
+    "Equipment": "Dumbbells",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Hamstrings",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Dumbbell Sumo Squat",
+    "Equipment": "Dumbbells",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Outer Thigh",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Dumbbell Romanian Deadlift",
+    "Equipment": "Dumbbells",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Hamstrings",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Dumbbell Stiff-Leg Deadlift",
+    "Equipment": "Dumbbells",
+    "ExerciseType": "Weight",
+    "MajorMuscle": "Legs",
+    "MinorMuscle": "Hamstrings",
+    "Example": "",
+    "Compound": "yes",
+    "Warmup": "no"
+  },
+  {
+    "Exercise": "Barbell Stiff-Leg Deadlift",
+    "Equipment": "Bar",
     "ExerciseType": "Weight",
     "MajorMuscle": "Legs",
     "MinorMuscle": "Hamstrings",
